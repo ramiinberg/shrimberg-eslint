@@ -12,8 +12,5 @@
       "no-console":"warn",
       "func-names":"off",
       "react/prop-types": [0]
-    },
-    "globals": {
-      "React": true
     }
 }
