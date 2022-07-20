@@ -10,13 +10,20 @@ npm i -D eslint-config-shrimberg
 npx install-peerdeps --dev eslint-config-shrimberg
 ```
 
-2. You will see several dependencies were installed. Now, create (or update) a .eslintrc file with the following content:
+2. You will see several dependencies were installed. 
+
+ - Now, update a .eslintrc file with the following content:
 ```
 {
   'extends': [
     'shrimberg'
   ]
 }
+```
+
+ - Or you can install and configure ESLint using this command or you could also make empty .eslintrc file:
+```
+npm init @eslint/config
 ```
 
 3. Copy the .prettierrc file from this repository into your project folder
