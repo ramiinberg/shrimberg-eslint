@@ -21,10 +21,12 @@ npx install-peerdeps --dev eslint-config-shrimberg
 }
 ```
 
- - Or you can install and configure ESLint using this command or you could also make empty .eslintrc file:
+ - Or you can install and configure ESLint using this command:
 ```
 npm init @eslint/config
 ```
+
+ - Or you could also make empty .eslintrc file
 
 3. Copy the .prettierrc file from this repository into your project folder
 
